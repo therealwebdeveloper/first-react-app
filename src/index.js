@@ -5,7 +5,8 @@ import Student from './components/Student';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Hello</h1>
-    <Student />
+    <Student name="Mike" age={44} />
+    <Student name="John" age={23} />
+
   </React.StrictMode>
 );
